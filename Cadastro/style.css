@@ -57,7 +57,7 @@ input[type=text], input[type=password] {
     padding-top: 16px;
   }
   .Criarr{
-    background-color: #707AFA;
+    background-color: #d324c4;
     border-color:transparent;
     color: #fff;
     border-radius: 5px;
@@ -67,3 +67,12 @@ input[type=text], input[type=password] {
     margin-bottom: 25px;
     font-size: medium;
   }
+  footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

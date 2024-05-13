@@ -9,7 +9,7 @@
 <body>
     
     <form action="action_page.php" method="post">
-          <img src="logo.png" alt="Avatar" class="avatar">
+          <img src="logo.png" alt="Avatar" class="avatar" onclick="entrar()">
         <div class="container">
           <label for="uname" class="uname"><b>Usuário</b></label>
           <input type="text" placeholder="Enter Username" name="uname" required>
@@ -28,12 +28,15 @@
       </form>
       <div class="esq" style="background-color:#f1f1f1">
         <a href="#">Esqueceu a Senha?</a><br>
-        <a href="../Cadastro/cadastro.html"">Ainda não tem uma conta?</a>
+        <a href="../Cadastro/cadastro.html">Ainda não tem uma conta?</a>
       </div>
       <script>
         function entrar(){
           location.assign("../Home/index.html");
         }
       </script>
+      <footer>
+        <p>&copy; 2024 Cheap Tech. Todos os direitos reservados.</p>
+      </footer>
 </body>
 </html>

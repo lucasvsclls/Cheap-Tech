@@ -3,11 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheap Tech</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="images/logo.png" class="logo">
+    <script>
+      function entrar(){
+        window.location.assign("../Home/index.html");
+      }
+    </script>
+    <img src="images/logo.png" class="logo" onclick="entrar()">
     <h1>Cheap Tech</h1>
     <form>
         <div class="container">
@@ -28,5 +33,8 @@
           <br>
         </div>
       </form>
+      <footer>
+        <p>&copy; 2024 Cheap Tech. Todos os direitos reservados.</p>
+      </footer>
 </body>
 </html>
