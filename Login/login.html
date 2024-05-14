@@ -3,38 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <form action="action_page.php" method="post">
-          <img src="logo.png" alt="Avatar" class="avatar" onclick="entrar()">
+    <script>
+      function entrar(){
+        window.location.assign("../Home/index.html");
+      }
+    </script>
+    <img src="logo.png" onclick="entrar()" style="width: 200px; height: 200px; margin-bottom: 20px;">
+    <form>
         <div class="container">
-          <label for="uname" class="uname"><b>Usuário</b></label>
-          <input type="text" placeholder="Enter Username" name="uname" required>
-      
-          <label for="psw" class="psw"><b>Senha</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
-      
-          <button class ="btn"; type="submit" onclick="entrar()">Entrar</button>
+          <h2 style="margin-bottom: 20px; font-size: xx-large;">Login</h2>
+          <div>
+            <input type="text" placeholder="Usuário">
+          </div>
+          <div>
+            <input type="text" placeholder="Senha">
+          </div>
+          <button class="Criarr">Entrar</button>
           <br>
         </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" checked="checked" name="remember" alt="remember"> Remember me
-          </label>
-         </div>
+        <div style="margin-bottom: 20px;">
+          <a href="../Cadastro/cadastro.html">Ainda não tenho uma conta</a>
+          <br>
+          <a href="#">Esqueceu sua senha?</a>
+        </div>
       </form>
-      <div class="esq" style="background-color:#f1f1f1">
-        <a href="#">Esqueceu a Senha?</a><br>
-        <a href="../Cadastro/cadastro.html">Ainda não tem uma conta?</a>
-      </div>
-      <script>
-        function entrar(){
-          location.assign("../Home/index.html");
-        }
-      </script>
       <footer>
         <p>&copy; 2024 Cheap Tech. Todos os direitos reservados.</p>
       </footer>

@@ -11,7 +11,7 @@ body{
 
 /* Estilos do header */
 img{
-    width: 75px;
+    width: 100px;
     height: 75px;
 }
 header {
@@ -39,11 +39,12 @@ nav ul li a {
 .product {
     display: inline-block;
     margin: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .product img {
-    max-width: 200px;
+    width: 100%;
+    height: 100%;
 }
 
 .product button {
@@ -72,4 +73,7 @@ footer {
 .container {
     width: 80%;
     margin: 20px auto;
+}
+h2{
+    font-size: medium;
 }
